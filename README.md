@@ -5,10 +5,13 @@ Performing analysis on kickstarter data to uncover trends in successful vs faile
 ###The purpose of this analysis was to help Louise, who is starting a project campaign, determine how she should organize her campaign based on data from other Theatre/Play campaigns. This data will help Louise decide how to manage her campaign and make it a successful one. 
 
 ##**Analysis and Challenges**: 
-###My analysis of the data was conducted using different codes, formulas, and showing the results with pivot tables, value shading and line charts. I created a line chart to show outcomes of campaigns based on their launch date, which showed successful campaigns peaked during the months of May and June. /resourcesfolder/images/Theater_outcomes_vs_launch.png
+###My analysis of the data was conducted using different codes, formulas, and showing the results with pivot tables, value shading and line charts. I created a line chart to show outcomes of campaigns based on their launch date, which showed successful campaigns peaked during the months of May and June. 
+/kickstarter-analysis/resources/count of outcomes.png
 
 ###The data also shows how the number and percentage of successful, failed, and canceled projects based on their monetary goals. Campaigns that had a goal between of less than a $1000 had the most success, with a success rate of 76%.  
-###Our analysis also shows that campaigns with a higher goal had a lower success rate and a higher failed rate /resourcesfolder/images/Outcomes_vs_goals.png. The data was also filtered to reflect how many backers different campaigns had, and the average donation each campaign received. This data was then filtered to only show the parent category “Theater”, and the subcategory “plays”. 
+###Our analysis also shows that campaigns with a higher goal had a lower success rate and a higher failed rate 
+/kickstarter-analysis/resources/Outcomes_vs_goals.png. 
+The data was also filtered to reflect how many backers different campaigns had, and the average donation each campaign received. This data was then filtered to only show the parent category “Theater”, and the subcategory “plays”. 
 ###Given the complexity of the analysis, there were some issues I ran into when calculating the percentages for successful, failed and canceled campaigns. After much trial and error, I realized I was using the wrong formula. Once I updated the formula, I was able to obtain the percentages for each outcome. I also had a difficult time with pivot tables, specifically knowing which information belongs in rows, columns, filters, and values. I discovered that the only way to solve this is to continue shuffling values around until you get the result you are looking for. I am hopeful that this will help me down the road.
 
 ##*Results*:
